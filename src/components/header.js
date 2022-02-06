@@ -5,7 +5,6 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 
 const Header = () => {
-
     return (
         <AppBar position="static" style={{ marginBottom: "10px"}}>
             <Container maxWidth="xl">
