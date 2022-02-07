@@ -2,7 +2,6 @@ import React from 'react';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
-import HOC from './hoc';
 
 const AddItem = ({ data, addItem }) => {
     const [todo, setTodo] = React.useState("")
@@ -41,4 +40,4 @@ const AddItem = ({ data, addItem }) => {
     </>)
 }
 
-export default HOC(AddItem);
+export default AddItem
